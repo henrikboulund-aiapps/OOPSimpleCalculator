@@ -1,0 +1,7 @@
+import enum
+
+class CalcMode(enum.Enum):
+    ADD = 1
+    SUB = 2,
+    MUL = 3
+    DIV = 4,
